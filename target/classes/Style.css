@@ -1,0 +1,50 @@
+.menu-bar {
+    -fx-background-color: #01a0e4;
+}
+
+. context-menu {
+    -fx-background-color:red;
+}
+
+context-menu {
+    -fx-background-color:#01a0e4;
+}
+
+
+
+.menu-bar .label {
+    -fx-font-size: 7pt;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: black;
+}
+
+.button {
+    -fx-padding: 5 18 5 18;
+    -fx-border-color: orange;
+    -fx-border-width: 3;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-color: #fded02;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 11pt;
+    -fx-text-fill: black;
+}
+
+.button:hover {
+    -fx-background-color:orange;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: #01a252;
+  -fx-border-color: orange;
+  -fx-text-fill: yellow;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-border-color: orange;
+    -fx-border-width: 3;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-color: #fded02;
+    -fx-text-fill: white;
+}
